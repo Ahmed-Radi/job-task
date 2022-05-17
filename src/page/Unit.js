@@ -1,14 +1,10 @@
 import React from 'react'
-import { Box, Container,Text,VStack, Flex, Button, Spacer, Heading, Breadcrumb, BreadcrumbItem, BreadcrumbLink,
+import { Box, Container, VStack, Flex, Button, Spacer, Heading, Breadcrumb, BreadcrumbItem, BreadcrumbLink,
     Popover,
     PopoverTrigger,
     PopoverContent,
-    PopoverHeader,
     PopoverBody,
-    PopoverFooter,
-    Portal,
-    PopoverArrow,
-    PopoverCloseButton } from "@chakra-ui/react"
+    Portal } from "@chakra-ui/react"
 import { DragHandleIcon, UnlockIcon, ArrowForwardIcon, PlusSquareIcon } from '@chakra-ui/icons';
 import SectionInfo from '../components/SectionInfo';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
