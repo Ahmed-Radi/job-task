@@ -1,6 +1,7 @@
 import React from 'react'
 import { Box, Flex, FormControl, Select, Image, InputGroup, InputLeftAddon, Input, InputRightAddon } from '@chakra-ui/react';
 import { SearchIcon, EmailIcon, Icon, BellIcon } from '@chakra-ui/icons';
+import { Link } from "react-router-dom";
 
 function Layout({children}) {
     const DrawerWidth = '250px'
@@ -105,8 +106,10 @@ function Layout({children}) {
                     </Flex>
                 </Box>
                 {/* Drawer */}
-                <Box style={style} mr='20px' display={{sm: 'none', md: 'block'}}>
-                    Side bar
+                <Box style={style} p="10px" mr='20px' display={{sm: 'none', md: 'block'}}>
+                    <Link to="/">Discussion</Link>
+                    <br />
+                    <Link to="/unit">Unit</Link>
                 </Box>
                 <Box sx={{flex: 1}}>
                     <Box sx={{marginTop: `calc( ${NavbarHeight} + (${NavbarPadding} * 2) + 12px) `}}></Box>

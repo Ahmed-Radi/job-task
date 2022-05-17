@@ -12,7 +12,7 @@ function Card() {
                 <Flex justifyContent={'space-between'} flexWrap='wrap'>
                     {userInfo.map((data, key) => (
                         <Box key={key} w={{lg: "31%", md: "48%", sm: "48%"}} border={'1px'} borderColor="#ddd" mb={{lg: "30px", sm: '20px'}} p="20px" borderRadius="7px">
-                            <Flex justifyContent={'space-between'} >
+                            <Flex justifyContent={'space-between'}>
                                 <Flex>
                                     <Box mr="10px">
                                         <Image

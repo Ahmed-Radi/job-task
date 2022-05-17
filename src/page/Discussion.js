@@ -18,7 +18,7 @@ function Discussion() {
                         </BreadcrumbItem>
 
                         <BreadcrumbItem isCurrentPage>
-                            <BreadcrumbLink href='#'>Contact</BreadcrumbLink>
+                            <BreadcrumbLink href='/'>Discussion</BreadcrumbLink>
                         </BreadcrumbItem>
                     </Breadcrumb>
                 </Box>
