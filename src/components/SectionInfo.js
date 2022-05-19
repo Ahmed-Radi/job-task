@@ -9,13 +9,13 @@ function SectionInfo() {
     return (
         <>
             <Box my="20px">
-                <Flex align={'center'} justify={'space-between'}>
+                <Flex align={'center'} justify={'space-between'} mb="10px">
                     <Heading as={'h5'} size="md">Lesson</Heading>
                     <FontAwesomeIcon icon={faEllipsisVertical} bg={'green'} />
                 </Flex>
                 <VStack spacing={6} align='stretch' divider={<StackDivider borderColor='gray.200' />}>
                     {sectionData.map(data => (
-                        <Flex justify="space-between" align={'center'}>
+                        <Flex justify="space-between" align={'center'} p={[1, 1, 1]} w={[500, "600px", '100%']}>
                             <Flex align={'center'} flexBasis="158px">
                                 <Box mr="5px">
                                     {data.icon}

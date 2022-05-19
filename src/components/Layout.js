@@ -106,7 +106,7 @@ function Layout({children}) {
                     </Flex>
                 </Box>
                 {/* Drawer */}
-                <Box style={style} p="10px" mr='20px' display={{sm: 'none', md: 'block'}}>
+                <Box style={style} p="10px" mr='20px' display={['none', 'block', 'block']}>
                     <Link to="/">Discussion</Link>
                     <br />
                     <Link to="/unit">Unit</Link>
